@@ -3,7 +3,7 @@ from rest_framework import status, permissions
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import Task
-from .serializers import TaskSerializer
+from .serializers import TaskSerializer, TaskDetailSerializer
 from drf_api.permissions import IsOwnerOrReadOnly
 
 
@@ -33,7 +33,7 @@ class TaskList(APIView):
 
 
 class TaskDetail(APIView):
-    serializer_class = TaskSerializer
+    serializer_class = TaskDetailSerializer
     permission_classes = [IsOwnerOrReadOnly]
 
     def get_object(self, pk):
@@ -46,14 +46,14 @@ class TaskDetail(APIView):
 
     def get(self, request, pk):
         task = self.get_object(pk)
-        serializers = TaskSerializer(
+        serializers = TaskDetailSerializer(
             task, context={'request': request}
         )
         return Response(serializers.data)
 
     def put(self, request, pk):
         task = self.get_object(pk)
-        serializer = TaskSerializer(
+        serializer = TaskDetailSerializer(
             task, data=request.data, context={'request': request}
         )
         if serializer.is_valid():
