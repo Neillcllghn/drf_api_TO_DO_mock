@@ -1,10 +1,19 @@
 from rest_framework import serializers
+from django.utils import timezone
 from .models import Task
 
 
 class TaskSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
     is_owner = serializers.SerializerMethodField()
+    due_date = serializers.DateField(required=False,
+            input_formats=["%Y-%m-%d"]
+            )
+    
+    def validate(self, data):
+        if data['due_date'] < timezone.now().date():
+            raise serializers.ValidationError("The date cannot be in the past!")
+        return data   
 
     def get_is_owner(self, obj):
         request = self.context['request']
