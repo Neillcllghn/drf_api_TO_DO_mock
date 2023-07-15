@@ -23,13 +23,13 @@ class ProfileDetail(APIView):
     def get_object(self, pk):
         try:
             profile = Profile.objects.get(pk=pk)
+            self.check_object_permissions(self.request, profile)
             return profile
         except Profile.DoesNotExist:
             raise Http404
 
     def get(self, request, pk):
         profile = self.get_object(pk)
-        self.check_object_permissions(self.request, profile)
         serializers = ProfileSerializer(
             profile, context={'request': request}
         )
