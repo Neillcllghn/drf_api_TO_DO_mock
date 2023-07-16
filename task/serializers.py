@@ -2,7 +2,6 @@ from rest_framework import serializers
 from django.utils import timezone
 from .models import Task
 
-
 class TaskSerializer(serializers.ModelSerializer):
     owner = serializers.ReadOnlyField(source='owner.username')
     is_owner = serializers.SerializerMethodField()
@@ -19,11 +18,19 @@ class TaskSerializer(serializers.ModelSerializer):
         request = self.context['request']
         return request.user == obj.owner
 
+    # def validate_category(self, value):
+    #     user = self.context['request'].user
+    #     if value.owner != user:
+    #         raise serializers.ValidationError(
+    #     "You do not have permission - you need to create your own category"
+    #     )
+    #     return value
+
     class Meta:
         model = Task
         fields = [
             'id', 'owner', 'created_at', 'updated_at', 'category', 'title',
-            'description', 'is_urgent', 'due_date', 'completed', 'is_owner'
+            'description', 'is_urgent', 'due_date', 'completed', 'is_owner',
         ]
 
 class TaskDetailSerializer(TaskSerializer):
