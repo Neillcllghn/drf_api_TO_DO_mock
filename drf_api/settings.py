@@ -68,11 +68,11 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-# ALLOWED_HOSTS = [
-#    os.environ.get('ALLOWED_HOST'),
-#    'localhost',
-# ]
-ALLOWED_HOSTS = ['8000-neillcllghn-drf-api-to-d-9j44m0q3xw.us2.codeanyapp.com']
+ALLOWED_HOSTS = [
+   os.environ.get('ALLOWED_HOST'),
+   'localhost',
+]
+# ALLOWED_HOSTS = ['8000-neillcllghn-drf-api-to-d-9j44m0q3xw.us2.codeanyapp.com']
 
 
 # Application definition
