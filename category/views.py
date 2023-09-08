@@ -6,7 +6,7 @@ from .serializers import CategorySerializer
 
 class CategoryList(generics.ListCreateAPIView):
     serializer_class = CategorySerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    permission_classes = [permissions.IsAuthenticated]
     queryset = Category.objects.all()
     filter_backends = [
         filters.SearchFilter
