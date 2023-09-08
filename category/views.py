@@ -7,7 +7,6 @@ from .serializers import CategorySerializer
 class CategoryList(generics.ListCreateAPIView):
     serializer_class = CategorySerializer
     permission_classes = [permissions.IsAuthenticated]
-    queryset = Category.objects.all()
     filter_backends = [
         filters.SearchFilter
     ]
@@ -17,6 +16,10 @@ class CategoryList(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)
+
+    def get_queryset(self):
+        # Filter categories to only include those created by the current user
+        return Category.objects.filter(owner=self.request.user)
 
 
 class CategoryDetail(generics.RetrieveUpdateDestroyAPIView):
