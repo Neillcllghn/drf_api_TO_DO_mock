@@ -71,10 +71,11 @@
 #         )
 
 from rest_framework import generics, permissions, filters
-from drf_api.permissions import IsOwnerOrReadOnly, IsAuthenticated
+from drf_api.permissions import IsOwnerOrReadOnly
 from .models import Task
 from .serializers import TaskSerializer, TaskDetailSerializer
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework.permissions import IsAuthenticated
 
 
 class TaskList(generics.ListCreateAPIView):
