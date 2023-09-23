@@ -23,7 +23,7 @@ In this API documentation, you'll find the following sections:
 
 ## User Stories
 | Category | as | I want to | so that I can | mapping API feature |
-| :--- | :--- | 
+| :--- | :--- | :--- | :--- | :--- |
 | `User/Customers, both First time and returning customers` |
 |  |  |  |
 | Provide a menu that the user can view. | Created a standard menu list that is collapsible thanks to JS and gives three of each of starter, main course and dessert so that the user can see what is on offer. |
