@@ -69,3 +69,17 @@ In this API documentation, you'll find the following sections:
 | Tasks | incomplete-task-count/ | no | yes | no | no | no | no |
 | Tasks | urgent-task-count/ | no | yes | no | no | no | no |
 | Category | category/ category/:id | yes | yes | yes | yes | no | title |
+
+## Tests
+
+
+
+
+
+##  Acknowledgments:
+
+I would like to acknowledge the following people:
+
+- Jubril Akolade - My Code Institute Mentor.
+- The Code Tutors for assisting me with errors I was running into from time to time and testing my code to confirm that they were free of bugs.
+- The various leactures and notes - Django Rest Framework Walkthrough on the Moments API was of great benefit and was the foundation for this project.
