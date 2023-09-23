@@ -66,4 +66,6 @@ In this API documentation, you'll find the following sections:
 | User | users/ users/:id | yes | yes | yes | no | no | no |
 | Profiles | profiles/ profiles/:id/ | yes (signals) | yes | yes | no | no | no |
 | Tasks | tasks/ tasks/:id | yes | yes | yes | yes | completed, urgent | title |
+| Tasks | incomplete-task-count/ | no | yes | no | no | no | no |
+| Tasks | urgent-task-count/ | no | yes | no | no | no | no |
 | Category | category/ category/:id | yes | yes | yes | yes | no | title |
