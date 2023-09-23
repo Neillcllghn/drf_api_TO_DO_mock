@@ -74,10 +74,10 @@ In this API documentation, you'll find the following sections:
 
 ## Deployment steps
 
--set the following environment variables:
--- CLIENT_ORIGIN
--- CLOUDINARY_URL
--- DATABASE_URL
+set the following environment variables:
+- CLIENT_ORIGIN
+- CLOUDINARY_URL
+- DATABASE_URL
 DISABLE_COLLECTSTATIC
 SECRET_KEY
 installed the following libraries to handle database connection:
