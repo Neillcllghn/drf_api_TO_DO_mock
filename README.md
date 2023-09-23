@@ -1,5 +1,5 @@
-# TABLEFOR2
-## CONTENTS
+# TaskMaster - API
+## Project Description
 
 * [AUTOMATED TESTING](#automated-testing)
   * [W3C Validator](#w3c-validator)
