@@ -24,5 +24,4 @@ In this API documentation, you'll find the following sections:
 ## User Stories
 | Category | as | I want to | so that I can | mapping API feature |
 | :--- | :--- | :--- | :--- | :--- |
-| auth | user | register for an account | have a personal profile with a picture | dj-rest-auth
-Create profile (signals) |
+| auth | user | register for an account | have a personal profile with a picture | dj-rest-auth Create profile (signals) |
