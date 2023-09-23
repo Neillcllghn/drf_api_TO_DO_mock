@@ -3,6 +3,32 @@
 
 TaskMaster is a web based platform that allows its users to manage their tasks, based on a categories that they assign a task, what the task is in terms of giving it a title and a description, whether it is urgent or not. They can assign a due date for when they need the task to be finished by. The application consists of the React app and an API. Welcome to the Django Rest Framework API project section.
 
+### API Documentation Sections
+
+In this API documentation, you'll find the following sections:
+
+- **Installation**: Instructions on how to set up the TaskMaster API on your local development environment.
+
+- **API Endpoints**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
+
+- **Authentication**: Information about the authentication mechanisms used in the API.
+
+- **Permissions**: Details on who can access and modify data through the API.
+
+- **Usage Examples**: Real-world examples of how to use the API to perform common tasks.
+
+- **Contributing**: Guidelines for contributing to the development of the TaskMaster API.
+
+- **License**: Information about the project's licensing.
+
+- **Authors**: Credits to the authors and contributors of the project.
+
+- **Acknowledgments**: Recognition of any libraries, frameworks, or tools used in the project.
+
+- **Contact**: Ways to get in touch with us for support or questions.
+
+- **Version History**: A history of changes and updates to the API.
+
 | Goals | How are they achieved? |
 | :--- | :--- | 
 | `User/Customers, both First time and returning customers` |
