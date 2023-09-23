@@ -72,6 +72,27 @@ In this API documentation, you'll find the following sections:
 
 ## Tests
 
+- **Tasks app:**
+  - logged out users cannot list tasks.
+  - logged in users can create a task.
+  - logged out users can't create a task.
+  - logged in users cannot create a task without a category.
+  - logged out users cannot retrieve a tasks with a valid id.
+  - logged out users can't retrieve a tasks with an invalid id.
+  - logged in users can update a task they own.
+  - logged in users can't update a task they don't own.
+  - logged in users can't create a task if all fields are blank.
+  - logged in users can't create a task with a due date in the past.
+ 
+- **Category app:**
+  - logged out users cannot list categories.
+  - logged in users can create a category.
+  - logged out users can't create a category.
+  - logged out users cannot retrieve a category with a valid id.
+  - logged out users can't retrieve a category with an invalid id.
+  - logged in users can update a category they own.
+  - logged in users can't update a category they don't own.
+
 ## Deployment steps
 
 - **set the following environment variables:**
