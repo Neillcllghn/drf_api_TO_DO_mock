@@ -122,8 +122,9 @@ In this API documentation, you'll find the following sections:
 
 ##  Acknowledgments:
 
-I would like to acknowledge the following people:
+I would like to acknowledge the following people and notes/other material used for this project:
 
 - Jubril Akolade - My Code Institute Mentor.
 - The Code Tutors for assisting me with errors I was running into from time to time and testing my code to confirm that they were free of bugs.
 - The various leactures and notes - Django Rest Framework Walkthrough on the Moments API was of great benefit and was the foundation for this project.
+- ChatGBT - for troubleshooting issues that I encountered and review of code (mistakes or errors in code that I could not see).
