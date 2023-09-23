@@ -93,6 +93,8 @@ In this API documentation, you'll find the following sections:
   - logged in users can update a category they own.
   - logged in users can't update a category they don't own.
 
+[Code Institute Python Linter](https://pep8ci.herokuapp.com/) was used to validate the python files. All files returned no errors or warnings.
+
 ## Deployment steps
 
 - **set the following environment variables:**
