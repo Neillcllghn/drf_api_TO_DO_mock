@@ -7,6 +7,8 @@ TaskMaster is a web based platform that allows its users to manage their tasks, 
 
 In this API documentation, you'll find the following sections:
 
+- **User Stories**: Instructions on how to set up the TaskMaster API on your local development environment.
+
 - **Installation**: Instructions on how to set up the TaskMaster API on your local development environment.
 
 - **API Endpoints**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
@@ -15,20 +17,11 @@ In this API documentation, you'll find the following sections:
 
 - **Permissions**: Details on who can access and modify data through the API.
 
-- **Usage Examples**: Real-world examples of how to use the API to perform common tasks.
-
-- **Contributing**: Guidelines for contributing to the development of the TaskMaster API.
-
-- **License**: Information about the project's licensing.
-
 - **Authors**: Credits to the authors and contributors of the project.
 
 - **Acknowledgments**: Recognition of any libraries, frameworks, or tools used in the project.
 
-- **Contact**: Ways to get in touch with us for support or questions.
-
-- **Version History**: A history of changes and updates to the API.
-
+## User Stories
 | Goals | How are they achieved? |
 | :--- | :--- | 
 | `User/Customers, both First time and returning customers` |
