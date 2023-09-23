@@ -22,7 +22,7 @@ In this API documentation, you'll find the following sections:
 - **Acknowledgments**: Recognition of any libraries, frameworks, or tools used in the project.
 
 ## User Stories
-| Goals | How are they achieved? |
+| Category | as | I want to | so that I can | mapping API feature |
 | :--- | :--- | 
 | `User/Customers, both First time and returning customers` |
 |  |  |  |
