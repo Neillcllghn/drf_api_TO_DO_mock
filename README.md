@@ -11,13 +11,11 @@ In this API documentation, you'll find the following sections:
 
 - **Entity Relationship Diagram**: Illustrates the relationships between different entities for a comprehensive overview.
 
-- **API Endpoints**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
+- **Models and CRUD breakdown**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
 
-- **Authentication**: Information about the authentication mechanisms used in the API.
+- **Tests**: Outlines the tests undertaken to ensure quality of functionality.
 
-- **Permissions**: Details on who can access and modify data through the API.
-
-- **Authors**: Credits to the authors and contributors of the project.
+- **Deployment steps**: Details on who can access and modify data through the API.
 
 - **Acknowledgments**: Recognition of any libraries, frameworks, or tools used in the project.
 
@@ -60,3 +58,12 @@ In this API documentation, you'll find the following sections:
 
 ![image](https://github.com/Neillcllghn/drf_api_TO_DO_mock/assets/109948740/89887618-b823-4d3d-80c0-209c812caa34)
 
+
+## Models and CRUD breakdown
+
+| Model | endpoints | create | retrieve | update | delete | filter | text search |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| User | users/ users/:id | yes | yes | yes | no | no | no |
+| Profiles | profiles/ profiles/:id/ | yes (signals) | yes | yes | no | no | no |
+| Tasks | tasks/ tasks/:id | yes | yes | yes | yes | completed, urgent | title |
+| Category | category/ category/:id | yes | yes | yes | yes | no | title |
