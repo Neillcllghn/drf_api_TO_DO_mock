@@ -74,26 +74,24 @@ In this API documentation, you'll find the following sections:
 
 ## Deployment steps
 
-**set the following environment variables:**
+- **set the following environment variables:**
 - CLIENT_ORIGIN
 - CLOUDINARY_URL
 - DATABASE_URL
 - DISABLE_COLLECTSTATIC
 - SECRET_KEY
-
-**installed the following libraries to handle database connection:**
+- **installed the following libraries to handle database connection:**
 - psycopg2
 - dj-database-url
-
-**configured dj-rest-auth library for JWTs**
-**set allowed hosts**
-**configured CORS:**
+- **configured dj-rest-auth library for JWTs**
+- **set allowed hosts**
+- **configured CORS:**
 - set allowed_origins
-**set default renderer to JSON**
-**added Procfile with release and web commands**
-**gitignored the env.py file**
-**generated requirements.txt**
-**deployed to Heroku**
+- **set default renderer to JSON**
+- **added Procfile with release and web commands**
+- **gitignored the env.py file**
+- **generated requirements.txt**
+- **deployed to Heroku**
 
 
 ##  Acknowledgments:
