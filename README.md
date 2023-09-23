@@ -9,7 +9,7 @@ In this API documentation, you'll find the following sections:
 
 - **User Stories**: The functionality of the API and how it works for the user.
 
-- **Installation**: Instructions on how to set up the TaskMaster API on your local development environment.
+- **Entity Relationship Diagram**: Provide a overview of the connections between each entity.
 
 - **API Endpoints**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
 
@@ -53,3 +53,9 @@ In this API documentation, you'll find the following sections:
 | Categories | User | Create a new category | Organize my tasks effectively | Category Create (API endpoint) |
 | Categories | User | Update a category | Modify the category's details | Category Update (API endpoint) |
 | Categories | User | Delete a category | Remove unnecessary categories | Category Delete (API endpoint) |
+
+
+
+## Entity Relationship Diagram
+
+![image](https://github.com/Neillcllghn/drf_api_TO_DO_mock/assets/109948740/53b0f062-354a-402e-9e3f-af049c75f83b)
