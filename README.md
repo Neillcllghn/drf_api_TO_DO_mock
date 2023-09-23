@@ -11,11 +11,11 @@ In this API documentation, you'll find the following sections:
 
 - **Entity Relationship Diagram**: Illustrates the relationships between different entities for a comprehensive overview.
 
-- **Models and CRUD breakdown**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
+- **Models and CRUD breakdown**: Delve into the specifics of API endpoints, including how to create, retrieve, update, and delete data, along with filtering and text search capabilities.
 
-- **Tests**: Outlines the tests undertaken to ensure quality of functionality.
+- **Tests**: Understand the quality assurance measures taken to ensure the reliability and functionality of the API.
 
-- **Deployment steps**: Details on who can access and modify data through the API.
+- **Deployment steps**: Learn how to deploy the API to various environments, enabling you to use it effectively in your projects.
 
 - **Acknowledgments**: Recognition of any libraries, frameworks, or tools used in the project.
 
