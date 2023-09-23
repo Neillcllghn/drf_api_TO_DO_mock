@@ -9,7 +9,7 @@ In this API documentation, you'll find the following sections:
 
 - **User Stories**: The functionality of the API and how it works for the user.
 
-- **Entity Relationship Diagram**: Provide a overview of the connections between each entity.
+- **Entity Relationship Diagram**: Illustrates the relationships between different entities for a comprehensive overview.
 
 - **API Endpoints**: Detailed information about the available API endpoints, how to interact with them, and expected responses.
 
@@ -58,4 +58,5 @@ In this API documentation, you'll find the following sections:
 
 ## Entity Relationship Diagram
 
-![image](https://github.com/Neillcllghn/drf_api_TO_DO_mock/assets/109948740/53b0f062-354a-402e-9e3f-af049c75f83b)
+![image](https://github.com/Neillcllghn/drf_api_TO_DO_mock/assets/109948740/89887618-b823-4d3d-80c0-209c812caa34)
+
