@@ -1,7 +1,6 @@
 # TaskMaster - API
 ## Project Description
 
-
 | Goals | How are they achieved? |
 | :--- | :--- | 
 | `User/Customers, both First time and returning customers` |
